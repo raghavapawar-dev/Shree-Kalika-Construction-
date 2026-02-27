@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Shree Kalika Construction
 
-# Run and deploy your AI Studio app
+A modern, responsive website for Shree Kalika Construction, a premium construction company based in Amalner, Maharashtra.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
+- **Modern UI/UX**: Built with React and Tailwind CSS for a premium feel.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Contact Form**: Integrated with Netlify Functions and Nodemailer for real-time email inquiries.
+- **Interactive Elements**: Smooth animations using Motion.
+- **Google Maps**: Embedded location for easy navigation.
+- **WhatsApp Integration**: Floating button for instant communication.
 
-View your app in AI Studio: https://ai.studio/apps/0d821264-6385-458f-bbd6-29c3b8d13915
+## 🛠 Tech Stack
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Motion
+- **Backend**: Netlify Functions (Serverless)
 
-## Run Locally
+## 📦 Installation
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-**Prerequisites:**  Node.js
+## 🌐 Deployment
+This project is optimized for **Netlify**.
+1. Push code to GitHub.
+2. Connect GitHub to Netlify.
+3. Set environment variables (`EMAIL_USER`, `EMAIL_PASS`) in Netlify dashboard.
+4. Deploy!
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📝 License
+© 2026 Shree Kalika Construction. All rights reserved.
+Website designed by [Mayur Pawar](tel:+919011140878).

@@ -61,13 +61,14 @@ export const Leadership: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="order-1 lg:order-2 relative"
           >
-            <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
+            <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl aspect-[4/5]">
               <img
-                src="https://drive.google.com/uc?export=view&id=1_OFG0XEUPsuHhO4vtwBAl06c1u9Gpvqm"
+                src="https://drive.google.com/thumbnail?id=1_OFG0XEUPsuHhO4vtwBAl06c1u9Gpvqm&sz=w1000"
                 alt="Shubham Pawar - Founder"
-                className="w-full h-auto object-cover min-h-[500px]"
+                className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>
               <div className="absolute bottom-8 left-8">
                 <div className="bg-secondary text-white font-display font-black px-6 py-2 text-sm uppercase tracking-widest">
                   Visionary Leader
